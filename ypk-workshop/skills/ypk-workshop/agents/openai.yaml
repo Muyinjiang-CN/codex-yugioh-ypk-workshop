@@ -1,0 +1,4 @@
+interface:
+  display_name: "YPK 制作工坊"
+  short_description: "将新卡网页或图片制作成含中文卡文、效果脚本和卡图的 YPK，或追加已有包"
+  default_prompt: "使用 $ypk-workshop 将我提供的网页或图片制作成含中文卡文、Lua 和卡图的 YPK。"

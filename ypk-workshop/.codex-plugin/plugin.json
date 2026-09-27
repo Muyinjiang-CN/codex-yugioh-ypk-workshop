@@ -1,0 +1,18 @@
+{
+  "name": "ypk-workshop",
+  "version": "0.1.0",
+  "description": "从游戏王新卡网页或图片制作中文 YPK，并向已有 YPK 追加卡片。",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "YPK 制作工坊",
+    "shortDescription": "网页批量制包，图片追加单卡，含卡文、Lua 和卡图。",
+    "longDescription": "由 Codex 识别和翻译卡文、编写目标引擎 Lua，本地工具写入 CDB、处理卡图及检查封包。需要 Python 与 Pillow，效果正确性需目标引擎实测。",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": ["把这个新卡网页制作成中文 YPK，含效果脚本和卡图。", "把这张图片中的卡追加到指定 YPK，并输出新版本。"]
+  }
+}
